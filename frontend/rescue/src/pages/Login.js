@@ -15,7 +15,7 @@ function Login() {
 
     const fetchUsers = () => {
         axios
-        .get('http://localhost:3001/register')
+        .get('http://localhost:3001/signup')
         .then((res) => {
             console.log(res.data)
         })
